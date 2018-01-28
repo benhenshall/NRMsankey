@@ -1,6 +1,6 @@
 orderID,year,offence_type,offence_group,gender,source,target,value
 1,2017,Adults,06 Drug offences,1 Male,All Modern Slavery Police cases,Investigated,70
-1,2017,Adults,06 Drug offences,1 Male,All Modern Slavery  Police cases,Not Investigated,30
+1,2017,Adults,06 Drug offences,1 Male,All Modern Slavery Police cases,Not Investigated,30
 2,2017,Adults,06 Drug offences,1 Male,Investigated,Referred to CPS (not as Modern Slavery),20
 2,2017,Adults,06 Drug offences,1 Male,Investigated,Referred to CPS (as Modern Slavery),40
 2,2017,Adults,06 Drug offences,1 Male,Investigated,Lack of evidence,10
@@ -9,10 +9,12 @@ orderID,year,offence_type,offence_group,gender,source,target,value
 3,2017,Adults,06 Drug offences,1 Male,Referred to CPS (as Modern Slavery),No charge decision,20
 4,2017,Adults,06 Drug offences,1 Male,CPS charge decision (not as Modern Slavery),Police charge (not as Modern Slavery),5
 4,2017,Adults,06 Drug offences,1 Male,CPS charge decision (not as Modern Slavery),Not charged ,5
+4,2017,Adults,06 Drug offences,1 Male,Referred to CPS (not as Modern Slavery),Police charge (not as Modern Slavery),5
+4,2017,Adults,06 Drug offences,1 Male,Referred to CPS (not as Modern Slavery),Not charged ,5
 4,2017,Adults,06 Drug offences,1 Male,CPS charge decision (Modern Slavery),Police charge (Modern Slavery),5
 4,2017,Adults,06 Drug offences,1 Male,CPS charge decision (Modern Slavery),Not charged ,5
 5,2017,Adults,06 Drug offences,1 Male,Police charge (Modern Slavery),Magistrate Summons (Modern Slavery),5
-5,2017,Adults,06 Drug offences,1 Male,Police charge (Modern Slavery),Court Summons (Not Modern Slavery),5
+5,2017,Adults,06 Drug offences,1 Male,Police charge (not as Modern Slavery),Court Summons (Not Modern Slavery),5
 5,2017,Adults,06 Drug offences,1 Male,Not charged ,Did not make it to court,10
 5,2017,Adults,06 Drug offences,1 Male,No charge decision,Did not make it to court,20
 5,2017,Adults,06 Drug offences,1 Male,Lack of evidence,Did not make it to court,10
