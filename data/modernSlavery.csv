@@ -1,0 +1,6 @@
+orderID,year,offence_type,offence_group,gender,source,target,value
+1,2017,Adults,06 Drug offences,1 Male,police case,Investigated,30
+1,2017,Adults,06 Drug offences,1 Male,police case,Not Investigated,70
+2,2017,Adults,06 Drug offences,1 Male,Investigated,Referred to CPS non-MS,40
+2,2017,Adults,06 Drug offences,1 Male,Investigated,Referred to CPS MS,20
+2,2017,Adults,06 Drug offences,1 Male,Investigated,Lack of evidence,10
