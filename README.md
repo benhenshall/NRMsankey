@@ -1,4 +1,7 @@
-# Criminal History Sankey
-Same underlying sankey code used in criminal_justice_statistics_sankey with criminal histories data (statistics release March 2017 data)
+# Modern Slaverey Sankey
+
+The point  of this repository is to hold the code required to generate a sankey diagram that will ideally show how modern slavery cases flow from reporting to final outcomes.
+
+The below website shows the current iteration.
 
 https://moj-analytical-services.github.io/criminal_history_sankey/
