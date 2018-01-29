@@ -235,7 +235,7 @@ var originalData = [];
 
 // Wrap data read in a promise to ensure data is read in before being referenced later on
 var dataRead = new Promise(function(resolve, reject){
-  d3.csv("data/modernSlavery.csv", function(error, data) {
+  d3.csv("data/NRM.csv", function(error, data) {
     
     if(error) reject(error);
 
@@ -298,7 +298,7 @@ d3.select("#filter_options_button").on("click", function(){
     d3.select("#filter_options_button")[0][0].textContent = "Show options"
   }
 })
-var units = "Convictions/Cautions";
+var units = "Victims";
 
 var margin = {top: 10, right: 10, bottom: 5, left: 10},
     width = 1200 - margin.left - margin.right,
