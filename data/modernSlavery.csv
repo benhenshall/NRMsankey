@@ -9,3 +9,12 @@ orderID,year,offence_type,offence_group,gender,source,target,value
 2,2017,Adults,06 Drug offences,1 Male,positiveRG,positiveRG(CG pending),10
 2,2017,Adults,06 Drug offences,1 Male,positiveRG,suspended_preCG,5
 2,2017,Adults,06 Drug offences,1 Male,positiveRG,withdrawn_preCG,5
+3,2017,Adults,06 Drug offences,2 Male,negativeRG,N,30
+3,2017,Adults,06 Drug offences,3 Male,pendingRG,P,20
+3,2017,Adults,06 Drug offences,4 Male,suspended_preRG,P,10
+3,2017,Adults,06 Drug offences,5 Male,withdrawn_preRG,N,10
+3,2017,Adults,06 Drug offences,6 Male,positiveCG,Y,30
+3,2017,Adults,06 Drug offences,7 Male,negativeCG,N,20
+3,2017,Adults,06 Drug offences,8 Male,positiveRG(CG pending),P,10
+3,2017,Adults,06 Drug offences,9 Male,suspended_preCG,N,5
+3,2017,Adults,06 Drug offences,10 Male,withdrawn_preCG,N,5
