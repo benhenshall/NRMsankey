@@ -1,11 +1,11 @@
-orderID,dropdown1,tick_box1,tick_box2,tick_box3,source,target,value
-1,2017,Adults,06 Drug offences,1 Male,Application,Positive RG Made,70
-1,2017,Adults,06 Drug offences,1 Male,Application,Negative RG Made,30
-1,2017,Adults,06 Drug offences,1 Male,Application,Reasonable Grounds Pending,20
-1,2017,Adults,06 Drug offences,1 Male,Application,Suspended pre RG,10
-1,2017,Adults,06 Drug offences,1 Male,Application,Withdrawn pre RG,10
-2,2017,Adults,06 Drug offences,1 Male,Positive RG Made,Positive CG Made,30
-2,2017,Adults,06 Drug offences,1 Male,Positive RG Made,Negative CG Made,20
-2,2017,Adults,06 Drug offences,1 Male,Positive RG Made,Positive RG Made (CG Pending),10
-2,2017,Adults,06 Drug offences,1 Male,Positive RG Made,Suspended pre CG,5
-2,2017,Adults,06 Drug offences,1 Male,Positive RG Made,Withdrawn pre CG,5
+orderID,year,offence_type,offence_group,gender,source,target,value
+1,2017,Adults,06 Drug offences,1 Male,application,positiveRG,70
+1,2017,Adults,06 Drug offences,1 Male,application,negativeRG,30
+1,2017,Adults,06 Drug offences,1 Male,application,pendingRG,20
+1,2017,Adults,06 Drug offences,1 Male,application,suspended_preRG,10
+1,2017,Adults,06 Drug offences,1 Male,application,withdrawn_preRG,10
+2,2017,Adults,06 Drug offences,1 Male,positiveRG,positiveCG,30
+2,2017,Adults,06 Drug offences,1 Male,positiveRG,negativeCG,20
+2,2017,Adults,06 Drug offences,1 Male,positiveRG,positiveRG(CG pending),10
+2,2017,Adults,06 Drug offences,1 Male,positiveRG,suspended_preCG,5
+2,2017,Adults,06 Drug offences,1 Male,positiveRG,withdrawn_preCG,5
