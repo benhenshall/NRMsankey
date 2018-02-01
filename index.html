@@ -163,15 +163,30 @@ h1 {
     </select>
   </div>
 
-<!--checkbox age grouo -->
-<div class="control" id="otype_control">
-    <label for ="otype_control"><b>Select age group</b></label>
-     <label><input type="checkbox" checked class="select_all" id = "select_all_type" value="type" checked> <i>Select All</i></label>
-    <label><input type="checkbox" checked class="otype" value="Adults" checked> Adults</label> 
-    <label><input type="checkbox" checked class="otype" value="Minor" checked> Minor</label> 
-   <!-- <label><input type="checkbox" checked class="otype" value="Unknown" checked> Unknown</label> -->
+<!--checkbox exploitation type grouo -->
 
-  </div> 
+<div class="control" id="ogroup_control">
+    <label for ="ogroup_control"><b>Select competent authority</b></label>
+
+    <label><input type="checkbox" checked
+      class="select_all" id = "select_all_group"
+      value="group"> <i>Select All</i> </label> 
+
+    <label><input type="checkbox" checked
+      class="ogroup"
+      value="Not Known"> Not Known </label> 
+
+    <label><input type="checkbox" checked
+      class="ogroup"
+      value="UK"> UK</label> 
+
+    <label><input type="checkbox" checked
+      class="ogroup"
+      value="Overseas"> Overseas </label> 
+	
+    <label><input type="checkbox" checked
+      class="ogroup"
+      value="UK and Overseas"> UK and Overseas </label> 
 
 <!--checkbox gender group -->
 <div class="control" id="gender_control">
@@ -229,14 +244,6 @@ h1 {
     <label><input type="checkbox" checked
       class="ogroup"
       value="03 sexual exploitation"> Sexual exploitation</label> 
-
-    <label><input type="checkbox" checked
-      class="ogroup" 
-      value="04 unknown exploitation"> Theft offences</label> 
-
-    <label><input type="checkbox" checked
-      class="ogroup"
-      value="06 Drug offences"> Drug offences</label> 
 
   </div> 
 </div>
