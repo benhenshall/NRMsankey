@@ -202,15 +202,15 @@ h1 {
 <!--checkbox competent authoriity -->
 
   <div class="control" id="ogroup_control">
-    <label for ="ogroup_control"><b>Select competent authority</b></label>
+    <label for ="ogroup_control"><b> Select competent authority</b></label>
 
     <label><input type="checkbox" checked
       class="select_all" id = "select_all_group"
-      value="group"> <i>Select All</i> </label> 
+      value="group"> <i>Select All</i></label> 
 
     <label><input type="checkbox" checked
       class="ogroup"
-      value="NCA"> National Crime Agency </label> 
+      value="NCA"> National Crime Agency</label> 
 
     <label><input type="checkbox" checked
       class="ogroup"
@@ -376,14 +376,14 @@ function updateData(){
   var genderTypes = [];
   var graph  = {"nodes" : [], "links" : []};
 
-  // Populate list of offence types from selector
+  // Populate list of exploitation types from selector
   for (i = 0; i < d3.selectAll(".otype")[0].length; i++){
     if(d3.selectAll(".otype")[0][i].checked){
       offenceTypes.push(d3.selectAll(".otype")[0][i].value);
     }
   }
 
-// Populate list of offence groups from selector
+// Populate list of exploitation types from selector
    for (i = 0; i < d3.selectAll(".ogroup")[0].length; i++){
     if(d3.selectAll(".ogroup")[0][i].checked){
       offenceGroups.push(d3.selectAll(".ogroup")[0][i].value);
